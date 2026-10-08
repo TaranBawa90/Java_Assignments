@@ -1,55 +1,52 @@
 # Java Assignments
 
-This repository contains my Java programming assignments and practice work completed as part of my coursework.
+This repository contains my Java assignments and practice work completed as part of my coursework.
 
 ## Repository Structure
 
-### Assignment 1 - Java If-Else & Loops
+### Assignment 1 - If-Else & Loops
 
-This folder contains solutions to programs based on Java if-else conditions and loops.
+Java programs based on conditions and loops, including:
 
-The programs include:
-
-- Even or Odd Numbers
+- Even or Odd
 - Multiplication Table
-- Prime Numbers in a Range
+- Prime Numbers
 - Number Guessing Game
-- Strong Numbers in a Range
+- Strong Numbers
 
 ### Assignment 2 - UCampus Cafeteria Management System
 
-This folder contains a Java project based on a cafeteria management system.
+A Java OOP project demonstrating:
+
+- Classes and Objects
+- Static and Instance Members
+- Methods
+- Price and Service Charge Calculation
+
+### Project Allocation System
+
+A Java OOP and 2D Array based project for managing employee working hours across different projects.
 
 The project demonstrates:
 
 - Classes and Objects
-- Instance Variables
-- Static Variables
-- Instance Methods
-- Static Methods
-- Price Calculation
-- Service Charge Calculation
+- Constructors
+- 2D Arrays
+- Matrix Transpose
+- Employee-wise Calculations
+- Project-wise Calculations
+- Finding the Most Worked Project
 
-### Linear Recursion Practice Set
+### Linear Recursion
 
-This folder contains solutions to 20 recursion-based programming problems focused on understanding the concepts of linear recursion.
+A collection of 20 recursion-based problems covering:
 
-The problems cover:
+- Numbers and Digits
+- Arrays
+- Strings
+- Recursion and Base Cases
 
-- Integer Problems
-- Array Problems
-- String Problems
-- Base Cases
-- Recursive Calls
-- Number and Digit Manipulation
-- Array Traversal
-- String Traversal
-- Finding Maximum and Minimum
-- Counting Elements
-- Palindrome Checking
-- Checking Sorted Arrays
-
-## Language Used
+## Language
 
 - Java
 
