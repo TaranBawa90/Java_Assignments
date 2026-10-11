@@ -46,6 +46,17 @@ A collection of 20 recursion-based problems covering:
 - Strings
 - Recursion and Base Cases
 
+### Warehouse Robot Inventory
+
+A Java OOP project demonstrating:
+- Classes
+- Objects
+- Constructors
+- 2D Arrays and Matrix Bounds
+- Spiral Traversal Algorithm (getRobotVisitOrder)
+- Boundary Stock Calculation (calculateBoundaryStock)
+- Maximum Stock Identification (findMaximumSection)
+
 ## Language
 
 - Java
