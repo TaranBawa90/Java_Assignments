@@ -41,25 +41,37 @@ public class Warehouse {
         for(int i=left;i<=right;i++){
             System.out.print(inventory[top][i]+" ");
             total++;
-            if(maxelement<inventory[top][i])maxelement=inventory[top][i];
+            if(maxelement<inventory[top][i]){
+                maxelement=inventory[top][i];
+                maxsection=section;
+            }
         }
         top++;
         for(int i=top;i<=bottom;i++){
             System.out.print(inventory[i][right]+" ");
             total++;
-            if(maxelement<inventory[i][right])maxelement=inventory[i][right];
+            if(maxelement<inventory[i][right]){
+                maxelement=inventory[i][right];
+                maxsection=section;
+            }
         }
         right--;
         for(int i=right;i>=left && top<=bottom;i--){
             System.out.print(inventory[bottom][i]+" ");
             total++;
-            if(maxelement<inventory[bottom][i])maxelement=inventory[bottom][i];
+            if(maxelement<inventory[bottom][i]){
+                maxelement=inventory[bottom][i];
+                maxsection=section;
+            }
         }
         bottom--;
         for(int i=bottom;i>=top && left<=right;i--){
             System.out.print(inventory[i][left]+" ");
             total++;
-            if(maxelement<inventory[i][left])maxelement=inventory[i][left];
+            if(maxelement<inventory[i][left]){
+                maxelement=inventory[i][left];
+                maxsection=section;
+            }
         }
         left++;
         
@@ -78,7 +90,7 @@ public class Warehouse {
     }
     void findMaximumSection(){
         System.out.println();
-        System.out.print("maximum element in matrix : ");
-        System.out.println(maxelement);
+        System.out.print("maximum element in matrix : "+maxelement+" in section : "+maxsection);
     }
 }
+
